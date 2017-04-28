@@ -1,0 +1,32 @@
+.box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+}
+
+.box-component {
+    margin: 10px;
+    width: 20em;
+    height: 20em;
+    border: 0.15em solid #FFA313;
+}
+
+.top {
+    padding: 10px 10px 0px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.5em;
+}
+
+.bottom {
+    padding: 10px 10px 0px 20px;
+    font-size: 1.2em;
+}
+
+.ng-invalid:not(form) {
+    border: 2px solid #a94442;
+}
